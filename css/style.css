@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --cyan: #66e2dc;
+  --orange: #fa7453;
+  --yellow: #ffb964;
+  --white: #fcfaf9;
+  --black: #191826;
+}
+body {
+  width: 100%;
+  background-image: url(../images/bg-main-mobile.png);
+  background-position: 0 -200px;
+  background-repeat: no-repeat;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+header {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 40px 25px 0 25px;
+  color: var(--black);
+}
+.logo {
+  margin-bottom: 65px;
+}
+.logo img {
+  width: 40%;
+}
+h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+}
+header p {
+  margin-bottom: 166px;
+  font-size: 16px;
+  line-height: 26px;
+}
+.black {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 390px;
+  background-color: var(--black);
+  border-radius: 12px;
+  background-image: url(../images/bg-pattern-2.svg);
+  background-size: 280px 420px;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.phone img {
+  position: absolute;
+  width: 208px;
+  left: 50%;
+  transform: translate(-50%);
+  top: -98px;
+}
+.premium {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 546px;
+  left: 0;
+  top: 380px;
+  padding: 48px 36px;
+  background-color: var(--orange);
+  border-radius: 12px;
+  color: var(--white);
+}
+.premium h2 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+.premium p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 36px;
+}
+.premium h2:nth-child(3) {
+  font-size: 65px;
+  margin-bottom: 32px;
+}
+.premium h2:nth-child(3) span {
+  margin-left: 16px;
+  font-size: 20px;
+  font-weight: 400;
+  vertical-align: 70%;
+}
+.premium a {
+  display: block;
+  font-size: 18px;
+  font-weight: 800;
+  width: 100%;
+  height: 61px;
+  border-radius: 12px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 61px;
+}
+.premium a:nth-child(4) {
+  margin-bottom: 16px;
+  background-color: var(--black);
+  color: var(--white);
+}
+.premium a:nth-child(5) {
+  background-color: var(--white);
+  color: var(--black);
+}
+.premium a img {
+  vertical-align: -2px;
+}
+footer {
+  box-sizing: border-box;
+  padding: 0 25px;
+}
+footer p {
+  margin: 32px 0 64px 5px;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--black);
+}
+footer p span {
+  font-weight: 800;
+}
+
+footer a {
+  padding-bottom: 80px;
+  margin-right: 20px;
+}
