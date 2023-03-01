@@ -130,3 +130,70 @@ footer a {
   padding-bottom: 80px;
   margin-right: 20px;
 }
+@media (min-width: 768px) {
+  body {
+    background-image: url(../images/bg-pattern-1.svg),
+      url(../images/bg-main-tablet.png);
+    background-position: +500px -50px, -450px -300px;
+  }
+  header {
+    box-sizing: border-box;
+    width: 73%;
+    padding: 40px 39px 0 25px;
+    color: var(--black);
+  }
+  .logo {
+    margin-bottom: 95px;
+  }
+  .logo img {
+    width: 30%;
+  }
+  h1 {
+    margin-bottom: 28px;
+    font-size: 64px;
+    line-height: 64px;
+  }
+  header p {
+    margin-bottom: 249px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .black {
+    width: 696px;
+    margin-bottom: 183px;
+    margin: 0 auto;
+    background-position: center -20px;
+  }
+  .phone img {
+    position: absolute;
+    width: 270px;
+    left: 64px;
+    transform: translate(0);
+    top: -138px;
+  }
+  .premium {
+    width: 399px;
+    left: 239px;
+    top: 160px;
+    padding: 48px;
+  }
+  footer {
+    box-sizing: border-box;
+    margin-top: 183px;
+    padding: 0 33px 85px 33px;
+  }
+  .rights-social {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer p {
+    width: 366px;
+    margin: 32px 0 0 0;
+  }
+
+  footer a {
+    display: inline-block;
+    padding-bottom: 0px;
+    margin-top: 60px;
+  }
+}
