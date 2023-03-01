@@ -197,3 +197,89 @@ footer a {
     margin-top: 60px;
   }
 }
+@media (min-width: 1024px) {
+  body {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url(../images/bg-pattern-1.svg),
+      url(../images/bg-main-desktop.png);
+    background-position: +1325px -50px, -50px -200px;
+  }
+  header {
+    box-sizing: border-box;
+    width: 75%;
+    padding: 62px 39px 0 166px;
+  }
+  .logo {
+    margin-bottom: 127px;
+  }
+  .logo img {
+    width: 20%;
+  }
+  h1 {
+    margin-bottom: 40px;
+    font-size: 88px;
+    line-height: 88px;
+  }
+  header p {
+    margin-bottom: 321px;
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .black {
+    width: 1110px;
+    margin-bottom: 202px;
+    background-position: +336px -20px;
+  }
+  .phone img {
+    width: 312px;
+    left: 102px;
+    top: -194px;
+  }
+  .premium {
+    width: 446px;
+    height: 625px;
+    left: 569px;
+    top: 90px;
+    padding: 58px 54px;
+  }
+  .premium h2 {
+    font-size: 40px;
+    margin-bottom: 22px;
+  }
+  .premium p {
+    font-size: 20px;
+    line-height: 34px;
+    margin-bottom: 39px;
+  }
+  footer {
+    box-sizing: border-box;
+    margin-top: 183px;
+    padding: 0 33px 85px 33px;
+  }
+  .rights-social {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer div {
+    width: 25%;
+  }
+
+  footer a {
+    display: inline-block;
+    padding-bottom: 0px;
+    margin-top: 30px;
+  }
+  footer p {
+    margin-top: 0;
+  }
+  .rights-social {
+    flex-grow: 2;
+  }
+}
