@@ -252,6 +252,12 @@ footer a {
     line-height: 34px;
     margin-bottom: 39px;
   }
+  .premium a:nth-child(4):hover {
+    background-color: var(--cyan);
+  }
+  .premium a:nth-child(5):hover {
+    background-color: var(--yellow);
+  }
   footer {
     box-sizing: border-box;
     margin-top: 183px;
